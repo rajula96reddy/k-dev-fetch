@@ -34,3 +34,8 @@ Author:  Stephen Augustus
 Subject:  Kubernetes Community, Kubernetes v1.15.12 has been built and pushed. The release notes have been updated in CHANGELOG-1.15.md, with a pointer to them on github: ------------------------------ v1.15.12 Documentation Downloads for v1.15.12 filename sha512 hash kubernetes.tar.gz 32543275f6a
 Link to discussion:  https://groups.google.com/d/msg/kubernetes-dev/lmIvSDp7ymM/Ao_QS9OKAAAJ
 ```
+
+This output can be pushed to slack/ twitter.
+
+### Questions:
+1. In order to fetch new posts, either the rss feed url has to be polled every now and then or a push needs to be done from Google groups. Not sure how to do the push. But for poll, server can be configured to poll every hour or every 30mins or any specific time 
